@@ -232,6 +232,11 @@
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
 
+    <!-- Arrow lab -->
+    <string name="havoc_lab_title">Pick Arrow</string>
+    <string name="havoc_lab_footer">Arrow Supply</string>
+    <string name="havoc_lab_summary">Extra Arrows</string>
+
     <!-- Model and Hardware -->
     <string name="superior_processor_title">Processor</string>
     <string name="superior_storage_code_title">Storage</string>

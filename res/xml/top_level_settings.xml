@@ -194,6 +194,14 @@
         settings:highlightableMenuKey="@string/menu_key_accounts"
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
 
+   <com.android.settings.widget.HomepagePreference
+        android:fragment="com.havoc.settings.laboratory.LabSettings"
+        android:icon="@drawable/ic_havoc_lab"
+        android:key="top_level_lab"
+        android:order="5"
+        android:title="@string/havoc_lab_title"
+        android:summary="@string/havoc_lab_summary"/>
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
         android:icon="@drawable/ic_settings_system_dashboard_white"
