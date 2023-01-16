@@ -24,6 +24,13 @@
         android:selectable="false"
         settings:searchable="false"/>
 
+    <Preference
+        android:key="hidden_apps"
+        android:title="@string/hidden_apps_title"
+        android:summary="@string/hidden_apps_summary"
+        android:persistent="false"
+        android:fragment="com.android.settings.display.HiddenAppSettingsFragment" />
+
     <com.havoc.support.preferences.SecureSettingSwitchPreference
         android:key="show_wifi_standard_icon"
         android:title="@string/show_wifi_standard_icon_title"
