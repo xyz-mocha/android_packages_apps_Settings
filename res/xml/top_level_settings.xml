@@ -63,7 +63,7 @@
         android:fragment="com.havoc.settings.laboratory.LabSettings"
         android:icon="@drawable/ic_havoc_lab"
         android:key="top_level_lab"
-        android:order="-125"
+        android:order="-170"
         android:title="@string/havoc_lab_title"
         android:summary="@string/havoc_lab_summary"/>
 
