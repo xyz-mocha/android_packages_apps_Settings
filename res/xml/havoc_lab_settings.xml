@@ -24,6 +24,42 @@
         android:selectable="false"
         settings:searchable="false"/>
 
+    <!-- Ignore secure window -->
+    <com.havoc.support.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
+    <com.arrow.support.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
+
+    <com.arrow.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:summary="@string/double_tap_sleep_gesture_summary"
+        android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:title="@string/customization_category_title">
+
+        <com.arrow.support.preferences.SecureSettingSwitchPreference
+                android:key="qs_show_data_usage"
+                android:title="@string/qs_show_data_usage_title"
+                android:summary="@string/qs_show_data_usage_summary"
+                android:defaultValue="true" />
+
+        <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/network_traffic_title"
+            android:summary="@string/network_traffic_summary"
+            android:order="25"
+            android:fragment="com.android.settings.arrow.NetworkTrafficSettings"/>
+    </PreferenceCategory>
+
     <Preference
         android:key="hidden_apps"
         android:title="@string/hidden_apps_title"
